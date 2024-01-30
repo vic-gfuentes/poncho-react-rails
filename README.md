@@ -1,24 +1,14 @@
-# README
+# PONCHO REACT RAILS REFERENCE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+| Ruby  | Node    | Yarn    | PG    |
+| ----- | ------- | ------- | ----- |
+| 3.3.0 | 20.11.0 | 1.22.21 | ~14.9 |
+---
 
-Things you may want to cover:
+## Configuration
 
-* Ruby version
+### bare metal
+- setup the database with: `rails db:setup`
+- run `bin/dev` script for local server and client bundle.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---

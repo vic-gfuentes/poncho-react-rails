@@ -1,8 +1,8 @@
 import ReactOnRails from 'react-on-rails';
-import '../../app/assets/stylesheets/application.css'
+import '../../app/assets/stylesheets/application.css';
 
-import HelloWorld from '../bundles/Client/components/HelloWorld';
+import Client from '../bundles/Client';
 
 ReactOnRails.register({
-  HelloWorld,
+  Client,
 });

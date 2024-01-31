@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :users
+
   # Client App
   root "pages#client"
 
+  # Admin App
   scope :admin do
     get "/" => "pages#admin"
   end
